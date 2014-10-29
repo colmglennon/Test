@@ -1,0 +1,25 @@
+package hardware;
+
+public class Server {
+	private int id=0;
+	private int average;
+	private int max;
+	
+	
+	public Server(){
+		id=++id;
+		max=200;
+		average=50;
+	}
+	
+	
+	public int getMax(){
+		return max;
+	}
+	
+	public int getAverage(){
+		return average;
+	}
+	
+	
+}

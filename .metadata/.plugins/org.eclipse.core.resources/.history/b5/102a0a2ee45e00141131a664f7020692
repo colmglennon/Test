@@ -1,0 +1,32 @@
+package hardware;
+
+public class Server {
+	static private int id=0;
+	private int average;
+	private int max;
+		
+	
+	public Server(){
+		id++;
+		this.id=id;
+		this.max=-1;
+		this.average=-1;
+	}
+	
+	
+	public int getMax(){
+		return max;
+	}
+	
+	public int getAverage(){
+		return average;
+	}
+	
+	public int getID(){
+		return test;
+	}
+	
+	
+	
+	
+}
